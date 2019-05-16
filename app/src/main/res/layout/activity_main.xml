@@ -25,7 +25,7 @@
         android:id="@+id/textViewSingers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Singre" />
+        android:text="Singer" />
 
     <EditText
         android:id="@+id/editTextsinger"
@@ -57,6 +57,7 @@
         android:text="Stars" />
 
     <RadioGroup
+        android:id="@+id/rg"
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:orientation="horizontal">
@@ -108,13 +109,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Button" />
+            android:text="Insert" />
 
         <Button
             android:id="@+id/buttonshowlist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Button" />
+            android:text="Show list" />
     </LinearLayout>
 </LinearLayout>
